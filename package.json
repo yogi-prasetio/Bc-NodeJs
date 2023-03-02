@@ -1,0 +1,10 @@
+{
+  "name": "yogi-prasetio",
+  "version": "1.0",
+  "description": "nodejs",
+  "main": "index.js",
+  "repository": "BcNodeJs",
+  "type": "module",
+  "author": "yogi",
+  "license": "MIT"
+}
