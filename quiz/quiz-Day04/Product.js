@@ -19,7 +19,7 @@ export default class Product{
     }
 
     toString(){
-        return parseInt(this.price) * parseInt(this.total);
+        return this.price * this.totalBuy;
     }
 
 }

@@ -13,17 +13,14 @@ for (let i = 5; i > 1; i--){
 // 1 2 
 // 1 
 
-let x = 0;
+let x = 5;
 for (let i = 0; i < 6; i++) {
     let angka = '';
-    for (let j = i; j < 6; j++){
-        // console.log('');
-    }
-    for (let k = 5; k > x; k--){
+    for (let k = x; k > 0; k--){
         angka = angka + k + " ";
     }
     console.log(angka);
-    x += 1;
+    x -= 1;
 }
 // output
 // 5 4 3 2 1  
